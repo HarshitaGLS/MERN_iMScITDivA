@@ -1,0 +1,35 @@
+function myFun(){} //function declaration
+
+let myFun = function(){} // function expression
+
+//function  without name is known as anonymous function.
+
+let myFun = ()=> {} // arrow function ES6
+
+const PI = 3.14; // constant variable
+
+
+
+==                  ===
+10=="10"            10===10 (T) 10==="10" (F)
+
+
+conditional operator /ternary operator - 
+?:
+
+&&
+
+?? => nullish coalesing operator
+
+<img src="" alt=""/>
+
+
+
+
+
+
+
+
+
+
+
