@@ -1,0 +1,7 @@
+//forEach, map, filter, reduce,find , findIndex
+//sort
+
+arr.forEach(6)
+arr.forEach((val,index)=>{})
+
+//callback function 
