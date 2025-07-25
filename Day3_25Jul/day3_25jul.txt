@@ -1,0 +1,15 @@
+Split Function -
+let str = "hello welcome to Lab5"
+str.split(" ") //["hello","welcome","to","Lab5"]
+
+Math Object  
+Date Object 
+
+User Defined Object
+destructuring object 
+spread operator
+rest parameter
+class 
+JSON 
+
+

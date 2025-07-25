@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="date" id="date1">
+    <button type="button" onclick="checkDate()">Check Date</button>
+    <span id="err" style="color:red"></span>
+    <script>
+        let err = document.getElementById("err")
+       let checkDate = ()=>{
+        let date1 = document.getElementById("date1").value //"2025-11-02"
+       let today = new Date()
+        let mydate = new Date(date1)
+        if(today < mydate)
+            err.innerHTML = "date should not be futuristic"
+        else
+            err.innerHTML =""
+       } 
+    </script>
+</body>
+</html>
+
+
