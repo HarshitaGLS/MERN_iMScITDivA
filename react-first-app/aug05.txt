@@ -1,0 +1,51 @@
+function app(){
+    return "hello"
+}
+
+app() //hello
+
+function App(){
+    return (
+        <div>hello</div>
+        jsx (javascript and html)
+    )
+}
+<App></App>
+<App/>
+
+<img></img>
+
+
+
+
+
+
+////////////////////
+
+
+React Fragment - 
+<></>
+<React.Fragment></React.Fragment>
+
+import {Fragment} from 'react'
+<Fragment></Fragment>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
