@@ -1,7 +1,7 @@
 import './App.css'
 
 import Counter from "./aug05/Counter"
-import Calculate from "./aug07/Calculate"
+import Calculate from "./aug08/Calculate"
 
 function App() {
   return (
