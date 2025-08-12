@@ -1,0 +1,6 @@
+let student = {fname:"Ram",lname:"Sharma"}
+
+let {fname,lname} = student
+props = {count:1 ,arr:["Ram","Shyam","Riya","Priya"]}
+
+let {count,arr} = props
