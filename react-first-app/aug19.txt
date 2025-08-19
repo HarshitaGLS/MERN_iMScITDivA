@@ -1,0 +1,34 @@
+<ChildComp  name="" mobile={9889} />
+<ChildComp  name="" />
+
+
+function ChildComp(props){}
+function ChildComp({name,mobile=null}){}
+
+<div id="" name="" class="">
+    <p>jfh</p>
+    <h2>klhjh</h2>
+</div>
+
+<ChildComp  name="" mobile={9889}>
+     <p>jfh</p>
+    <h2>klhjh</h2>
+    <Comp1/>
+</ChildComp>
+
+{props.children}
+
+truthy - any non zero value 
+Falsy - 0 ,null, undefined, false, ""
+
+
+
+
+
+
+
+
+
+
+
+

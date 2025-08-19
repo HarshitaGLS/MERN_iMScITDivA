@@ -4,7 +4,7 @@ const Childcomp = ({count,arr}) => {
     //let {count,arr} = props
   return (
     <>
-      <h2>child comp</h2>
+      <h2 className='bg-danger'>child comp</h2>
       <h1>{count}</h1>
       <br/>
       {/* {arr.join(" ")} */}
