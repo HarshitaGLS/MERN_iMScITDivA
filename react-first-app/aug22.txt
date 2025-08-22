@@ -1,0 +1,13 @@
+Form Handling -
+
+onclick => event => event Object 
+
+<button type="button" id="btn" class="btn" onclick="alert('')">Click</button>
+event object
+
+addEventListener - Event Bubbling , Event Capture
+
+
+e.preventDefault()
+e.target.value
+e.stopPropogation()

@@ -6,10 +6,13 @@ import ParentComp from './aug12/ParentComp'
 import ListRendering from './aug19/ListRendering'
 import PropChildrenDemo from './aug19/PropChildrenDemo'
 import Image1 from './assets/a.webp'
+import FormHandling from './aug22/FormHandling'
+import FormHandling1 from './aug22/FormHandling1'
+import Counter1 from './aug22/Counter1'
 
 function App() {
   return (
-  <>
+  <div className='container mt-5' >
    {/* <div>Hello React</div>
    <Counter></Counter> */}
 
@@ -30,9 +33,14 @@ function App() {
   <h1>children</h1>
   <ParentComp myname="GLS" since={1927} isActive={true} />
 </PropChildrenDemo> */}
-    <img src={Image1} />
-    <ListRendering/>
-   </>
+    {/* <img src={Image1} style={{width:"100px",borderRadius:"10px"}} />
+    <ListRendering/> */}
+
+    {/* <FormHandling/> */}
+    {/* <FormHandling1/> */}
+
+    <Counter1/>
+   </div>
   )
 }
 
