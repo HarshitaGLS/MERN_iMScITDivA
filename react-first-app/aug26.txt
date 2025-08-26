@@ -1,0 +1,58 @@
+let names = ["aaaa","bbbb","ccc","dddd"]
+
+{names[0]}
+{names.join(" ")}
+<h4>aaaa</h4>
+
+{ names.map(()=>{}) }
+
+{ names.map((val,i)=>{}) }
+
+{ names.map((val,i)=>{return <h4 key={i}>{val}</h4>}) }
+
+
+<table>
+<tr>
+    <td>index</td>
+    <td>name</td>
+</tr>
+{ names.map((val,i)=><tr key={i}>
+    <td>{i}</td>
+    <td>{val}</td>
+</tr>
+) }
+</table>
+/////////////////////////////////
+
+let [num1,setNum1] = useState(2)
+
+<input 
+value={num1}
+onChange={(event)=>{
+    console.log(event.target.value) //21
+    setNum1(event.target.value)
+} }/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

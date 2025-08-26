@@ -9,6 +9,7 @@ import Image1 from './assets/a.webp'
 import FormHandling from './aug22/FormHandling'
 import FormHandling1 from './aug22/FormHandling1'
 import Counter1 from './aug22/Counter1'
+import StateDemo from './aug26/StateDemo'
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
     {/* <FormHandling/> */}
     {/* <FormHandling1/> */}
 
-    <Counter1/>
+    {/* <Counter1/> */}
+    <StateDemo address="Law Garden"/>
    </div>
   )
 }
