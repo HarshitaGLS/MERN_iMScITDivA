@@ -1,0 +1,71 @@
+
+En.no=202101619010021
+SET-6
+
+
+import "./App.css"
+import Task from "./Student"
+import GradeChecker from "./GradeChecker"
+
+function App() {
+  return (
+    <>
+      <Task/>
+      
+      <GradeChecker/>
+    </>
+  )
+}
+
+export default App
+
+
+
+Q-1
+import React from "react"
+function GradeChecker(){
+    const [num1,setnum1] = React.useState();
+    const [result,setresult] = React.useState();
+    const handlecheck=(op)=>{
+        if(op=="+"){
+
+        }
+    }
+    
+
+}
+return(
+     
+        <>
+        Num1:<input type="number" placeholder="Enter Marks" value={num1} onChange={(e)=> setresult(e.target.value)}/><br/><br/>
+        <button type="submit" onClick={"Check Grade"}>Cheke Grade</button>
+        {result}
+        </>
+      
+      )
+      
+Q-2
+import React from "react"
+function Task(){
+    let task=["Complete Assignment","Read React Docs","Go for walk"]
+    return(
+        <>
+            
+            <h1 style={{color:"blue"}}>List of task.</h1>
+                {
+                   
+                        <ul>
+                             {task.map((item,value) => (
+                            
+                            <li key = {value} style={{color:"pink"}} >{item}</li>)
+                             )
+                             }
+                        </ul>
+                    
+                    
+                }
+            
+        </>
+    )
+}
+

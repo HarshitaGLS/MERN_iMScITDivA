@@ -10,6 +10,8 @@ import FormHandling from './aug22/FormHandling'
 import FormHandling1 from './aug22/FormHandling1'
 import Counter1 from './aug22/Counter1'
 import StateDemo from './aug26/StateDemo'
+import ListRendering1 from './Sep09/ListRendering1'
+import DisplayinTable from './Sep09/DisplayinTable'
 
 function App() {
   return (
@@ -41,7 +43,10 @@ function App() {
     {/* <FormHandling1/> */}
 
     {/* <Counter1/> */}
-    <StateDemo address="Law Garden"/>
+    {/* <StateDemo address="Law Garden"/> */}
+
+    {/* <ListRendering1/> */}
+    <DisplayinTable/>
    </div>
   )
 }

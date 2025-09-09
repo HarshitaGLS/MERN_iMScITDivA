@@ -5,4 +5,8 @@ let products = [
 {name:"product4",price:3000,image:"image4",category:"Cat2",stock:20,desc:""},
 ]
 // console.log(products[0])
-console.log(products[0].name)
+// console.log(products[0].name)
+
+products.map((product,id)=>{
+    console.log(product.price) 
+})

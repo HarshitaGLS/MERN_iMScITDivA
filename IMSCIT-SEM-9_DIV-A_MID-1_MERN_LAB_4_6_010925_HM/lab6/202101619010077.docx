@@ -1,0 +1,55 @@
+Shah Pooja
+202101619010077
+cs222
+set2
+import React, {useState} from "react";
+function FruitList (){
+    let Fruits = ["Apple","Banana","Mango","Orange"]
+    return(
+        <div>
+            <center>
+                <ul>
+                    {Fruits.map((item,idx)=>(
+                        <li key={idx}>
+                            {idx}{item}
+                        </li>
+                    ))}
+                </ul>
+            </center>
+        </div>
+    )
+}
+export default FruitList
+
+import React, {useState} from "react";
+
+function Count (){
+    const [count,setcount] = useState()
+    return(
+        <div>
+            <center>
+                <h2>{count}</h2>
+                <button onClick={()=> setcount(count + 1)}>Add Count</button>
+                <button onClick={()=> count > 1 ? setcount(count - 1):0}>Decrese Count</button>
+            </center>
+        </div>
+    )
+
+}
+export default Count
+import "./App.css"
+import Count from "./Count"
+import FruitList from "./FruitList"
+
+function App() {
+  return (
+    <>
+      <h1>Hello React</h1>
+      <Count></Count>
+      <FruitList></FruitList>
+    </>
+  )
+}
+
+export default App
+
