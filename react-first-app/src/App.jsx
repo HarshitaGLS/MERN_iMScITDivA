@@ -12,8 +12,12 @@ import Counter1 from './aug22/Counter1'
 import StateDemo from './aug26/StateDemo'
 import ListRendering1 from './Sep09/ListRendering1'
 import DisplayinTable from './Sep09/DisplayinTable'
+import AddProduct from './sep12/AddProduct'
+import { useState } from 'react'
+import Demo1 from './sep12/Demo1'
 
 function App() {
+  const [titleName] = useState("Add Product Form")
   return (
   <div className='container mt-5' >
    {/* <div>Hello React</div>
@@ -46,7 +50,9 @@ function App() {
     {/* <StateDemo address="Law Garden"/> */}
 
     {/* <ListRendering1/> */}
-    <DisplayinTable/>
+    {/* <DisplayinTable/> */}
+    {/* <AddProduct title={titleName}/> */}
+    <Demo1 title={titleName}/>
    </div>
   )
 }
