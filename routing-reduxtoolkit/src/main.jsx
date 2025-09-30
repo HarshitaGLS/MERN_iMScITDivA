@@ -11,6 +11,8 @@ import { ConatctUs } from './pages/ConatctUs.jsx';
 import { Login } from './pages/Login.jsx';
 import { Register } from './pages/Register.jsx';
 import { Pagenotfound } from './pages/Pagenotfound.jsx';
+import { Provider } from 'react-redux';
+import mystore from './redux/mystore.js';
 
 const myroutes = createBrowserRouter([
   {path:'/' ,element:<App/>, 
@@ -27,5 +29,8 @@ const myroutes = createBrowserRouter([
 ]) 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
- <RouterProvider router={myroutes}/>,
+ <Provider store={mystore}>
+    <RouterProvider router={myroutes}/>
+ </Provider>
+ ,
 )

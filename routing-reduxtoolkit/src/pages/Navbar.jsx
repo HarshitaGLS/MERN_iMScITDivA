@@ -1,7 +1,10 @@
 import React from 'react'
 import { FaSearch, FaUserCircle } from "react-icons/fa";
+import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router';
 const Navbar = () => {
+  const countval = useSelector(state=>state.counter.count)
+
   return (
    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
   <div class="container-fluid">
@@ -22,6 +25,9 @@ const Navbar = () => {
         </li>
          <li class="nav-item">
           <NavLink className="nav-link" to='/contact'>Contact Us</NavLink>
+        </li>
+         <li class="nav-item">
+          <a className="nav-link" >count : {countval} </a>
         </li>
         {/* <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
