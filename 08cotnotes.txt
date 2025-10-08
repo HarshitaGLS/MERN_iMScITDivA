@@ -1,0 +1,36 @@
+db.students.updateOne({filter},{$set : {} } , {upsert:true} )
+db.students.updateOne({fees:90000},{$set : {isMarried:true , course:"MScIT"} })
+
+db.students.updateMany()
+
+<nav>
+	
+<nav>
+
+form handling - validations 
+				json form 
+				redirect 
+				
+App.css -> .active {}
+				
+import "./App.css"
+				
+<NavLink to="/"  
+className={({isActive})=>isActive ? "active" :"" }				
+				
+className = {({isActive})=> isActive ? "" :""}		
+				
+				
+style = {(isActive)=>({
+		color: isActive ? "red" :"white",
+		backgroundColor: isActive? "yellow" :"black"
+})}
+				
+				
+				
+				
+				
+				
+				
+				
+				
