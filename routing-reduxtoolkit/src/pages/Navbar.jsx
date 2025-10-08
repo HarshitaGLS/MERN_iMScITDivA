@@ -49,7 +49,12 @@ const Navbar = () => {
        </form>
         <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
         <li class="nav-item">
-          <NavLink className="nav-link" to='/login'><FaUserCircle />Login</NavLink>
+          {/* <NavLink className="nav-link" to='/login'><FaUserCircle />Login</NavLink> */}
+          <NavLink style = {(isActive)=>({
+		color: isActive ? "red" :"white",
+		backgroundColor: isActive? "yellow" :"black"
+})} to='/login'><FaUserCircle />Login</NavLink>
+
         </li>
          <li class="nav-item">
           <NavLink className="nav-link" to='/signup'>SignUp</NavLink>
