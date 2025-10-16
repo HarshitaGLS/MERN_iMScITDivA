@@ -1,0 +1,64 @@
+prop drilling 
+context 
+Redux 
+Reduxjs/toolkit 
+
+App
+
+A			B - username="GLS"
+
+C	D		E		F 		G
+
+	H		I	J
+	
+	K	L		M 	N - logout username="guest"
+
+
+store  - Where state store
+
+reducers (pure function)
+
+actions  (event)
+
+state  (variable)
+ 
+view (react)
+
+customer , dealer 
+BUY CAKE , SELL CAKE 
+shopkeeper
+Cake Shelf 
+cakes , brownies, muffins, cupcakes, bento, chocolates, sandwiches, cookies etc..
+
+npm i @reduxjs/toolkit
+
+npm i react-redux
+useDispatch() hook - to dispatch action
+useSelector() hook 
+
+view ---> action --> reducers ---> store (state) ----> view 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
