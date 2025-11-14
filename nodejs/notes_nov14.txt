@@ -1,0 +1,17 @@
+modules -
+core - http,fs,events,os,dns etc..
+appendFile()
+unlink() - delete 
+rename() -  rename 
+
+third party - npm i bootstrap react-icons  , nodemon 
+local / userdefined
+
+file handling 
+create server nodejs 
+url -> request 
+
+
+expressjs  -  nodejs web framework 
+API -  
+API test 
